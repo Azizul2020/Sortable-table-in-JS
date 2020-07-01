@@ -1,0 +1,64 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+th {
+    position: relative;
+}
+
+tr:hover {
+    background: rgb(27, 26, 26);
+    color: white
+}
+
+button#btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 4px 22px;
+    font-size: 22px;
+    color: #e4bb9d;
+    background: #1f981f;
+    border-radius: 4px;
+    position: absolute;
+    top: 7px;
+    right: 25px;
+}
+
+button#btn2 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 4px 22px;
+    font-size: 22px;
+    color: #e4bb9d;
+    background: #1f981f;
+    border-radius: 4px;
+    position: absolute;
+    top: 7px;
+    left: 25px;
+}
+
+input#searchbox {
+    width: 94%;
+    padding: 11px 41px;
+    margin: 13px 0px;
+    border: 1.3px solid darkslategray;
+    /* list-style: lower-greek; */
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+input#searchbox::placeholder {
+    color: red;
+}
